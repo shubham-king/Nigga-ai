@@ -8,9 +8,10 @@
       "start": "next start"
     },
     "dependencies": {
-      "next": "latest",
-      "react": "latest",
-      "react-dom": "latest"
-    }
+          "axios": "^0.21.1",
+          "next": "latest",
+          "react": "latest",
+          "react-dom": "latest"
+        }
   }
   
