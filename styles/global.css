@@ -1,0 +1,130 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-title {
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+}
+
+/* Container */
+.container {
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.send-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Models List */
+.model-list {
+    margin-top: 20px;
+}
+
+.model-btn {
+    display: block;
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.model-btn:hover {
+    background: #efefef;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .search-box {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search-box input {
+        flex-grow: 1;
+    }
+
+    .search-icons {
+        display: flex;
+        gap: 10px;
+    }
+}
